@@ -16,7 +16,7 @@ function App() {
 
 
   var xhr2 = new XMLHttpRequest();
-  xhr2.open("GET", "https://www.bungie.net/Platform/Destiny2/3/Profile/4611686018486243611/", true);
+  xhr2.open("GET", "https://www.bungie.net/platform/Destiny/2/Account/4611686018486243611/", true);
   xhr2.setRequestHeader("X-API-Key", process.env.API_KEY);
 
   xhr2.onreadystatechange = function () {
